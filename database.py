@@ -1,4 +1,3 @@
-# database.py
 import aiomysql
 import asyncio
 import json

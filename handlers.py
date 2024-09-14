@@ -1,16 +1,11 @@
-import logging
-import json
+
 import os
-import time
-import random
-import asyncio
 import requests
 from database import ensure_connection
 from datetime import datetime
-from aiogram.types import InputFile
 
-from aiogram import Dispatcher, html
-from aiogram.filters import CommandStart, CommandObject
+from aiogram import Dispatcher
+from aiogram.filters import CommandStart
 from aiogram.filters import Command
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram.utils.markdown import hlink
