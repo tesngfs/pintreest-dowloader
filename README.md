@@ -1,4 +1,4 @@
-CONFIG.JSON
+config.json
 
 TOKEN - You can find the token in @botfather
 DB_HOST - IP host
